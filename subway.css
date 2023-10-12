@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ body{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/96/62/29/1000_F_196622992_gEnchHtHXljJfQLUYliJ3EEsOBqCF8im.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+
+ h1{
+
+    text-align: center;
+    color: black;
+    font-size: 59px;
+    font-family: 'Trebuchet MS', sans-serif;
+
+ }
+
+ #coun{
+    background-color: aqua;
+    margin-bottom:55px;
+    margin-top:54px;
+    display:flex;
+    justify-content:center;
+    margin-left:670px;
+    height:55px;
+    width:234px;
+    border-radius:50px;
+    color:black;
+   font-weight:bold;
+   font-size:34px;
+   text-align:center;
+   cursor: pointer;
+
+
+ }
+
+ #count-el{
+    font-size:49px;
+    margin-top:20px;
+  margin-bottom:20px;
+  margin-left:757px;
+ 
+ }
+    
+ #save{
+    background-color: rgb(215, 36, 60);
+    margin-top:54px;
+    display:flex;
+    justify-content:center;
+    margin-left:670px;
+    height:55px;
+    width:234px;
+    border-radius:50px;
+    color:rgb(31, 26, 26);
+   font-weight:bold;
+   font-size:34px;
+   text-align:center;
+   cursor:pointer;
+
+ }
+#coun:hover{
+    background-color: antiquewhite;
+    transition:0.5;
+}
+#save:hover{
+    background-color:green;
+    transition: 0.5;
+}
+
+p{
+    font-size:49px;
+    font-weight: bold;
+    margin-top:200px;
+  margin-bottom:20px;
+  margin-left:590px;
+  color:blueviolet;
+}
